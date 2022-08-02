@@ -1,0 +1,20 @@
+header {
+  background-color: rgb(44, 113, 216);
+}
+.wraper {
+  background-color: rgb(7, 2, 29);
+}
+.art {
+  size: 50px;
+}
+* {
+  text-align: center;
+  margin: auto;
+}
+main img {
+  width: 320px;
+  height: 480px;
+}
+.main {
+  position: relative;
+}
