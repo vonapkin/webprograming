@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
 header {
-  background-color: rgb(44, 113, 216);
+  background-color: rgb(109, 112, 100);
+  position: relative;
+  height: 50px;
+  width: 100%;
+}
+h1 {
+  color: white;
+  position: relative;
 }
 .wraper {
   background-color: rgb(7, 2, 29);
@@ -17,4 +28,28 @@ main img {
 }
 .main {
   position: relative;
+}
+p {
+  color: white;
+  font-size: 18px;
+  max-width: 800px;
+}
+h2 {
+  color: white;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+.main-content div {
+  margin-top: 15px;
+}
+.phone:hover {
+  font-size: 20px;
+}
+.phone {
+  transition: 0.5s;
+}
+footer {
+  background-color: black;
 }
